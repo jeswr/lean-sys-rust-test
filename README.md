@@ -15,3 +15,5 @@ error: test failed, to rerun pass `--lib`
 Caused by:
   process didn't exit successfully: `/home/jesght/Documents/GitHub/oxrdf4lean/target/debug/deps/oxrdf4lean-3ecb2ebbd0f3f266` (signal: 11, SIGSEGV: invalid memory reference)
 ```
+
+The same error occurs if we use other functions like `lean_mk_string` in `lib/src.rs` as well.
